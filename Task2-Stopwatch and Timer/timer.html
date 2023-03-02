@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Timer</title>
+	<link rel="stylesheet" href="timerstyle.css">
+<script src="timerscript.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<p id="inputCD">Mins: <input id="inputMin" type="number" value="0">
+			Secs: <input id="inputSec" type="number" value="20"></p>
+
+		<span id="countDown">
+			<b id="hMin">00</b><big>:</big><b id="hSec">00</b>
+		</span><br>
+		<span>
+			<button id="buttonCD" onclick="startCountDown()">START</button>
+			<button class="reset" onclick="resetCD()">RESET</button>
+		</span>
+	</div>
+
+
+
+
+
+</body>
+
+</html>
